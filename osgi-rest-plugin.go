@@ -6,7 +6,7 @@ import (
 var SymbolicName 	string
 var Version 		string
 const SERVICE_NAME 	= "AMQP"
-var logger log.Logger
+var logger *log.Logger
 func init(){
 	SymbolicName 	= "amqp-connector"
 	Version 		= "1.0"
